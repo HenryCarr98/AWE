@@ -11,4 +11,7 @@ with open(sys.argv[1]) as f:
         ys.append(y)
 
 plt.plot(xs, ys)
-plt.show()
+plt.xlabel("x")
+plt.ylabel("Density")
+# plt.show()
+plt.savefig("img/gas.pdf")

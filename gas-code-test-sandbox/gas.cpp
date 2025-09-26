@@ -164,6 +164,6 @@ main(int const argc, char const *argv[])
     }
 
     // XXX --- Uncomment this line to write density data to stdout. ---
-    //plot(nel, ndx.get(), elrho.get());
+    plot(nel, ndx.get(), elrho.get());
     return 0;
 }
